@@ -3,3 +3,39 @@ body{
     padding:0;
     margin: 0;
 }
+
+nav{
+    background-color: #111;
+    color: white;
+    padding: 20px 50px;
+
+}
+
+.navTop{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.search{
+    display: flex;
+    align-content: center;
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.searchInput{
+    border: none;
+    background-color: transparent;
+}
+
+.searchInput::placeholder{ /*伪元素就是只针对一个元素中的某个部分，他并不是某个元素，但是为了css，把它当成了一个元素 */
+    color:lightgray
+}
+
+.limitedOffer{
+    font-size: 20px;
+    border-bottom: 2px solid green;
+    cursor: pointer;
+}
