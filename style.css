@@ -136,6 +136,24 @@ nav{
     background-color: cornflowerblue;
 }
 
-.sliderItem:nth-child(5)  .slideBg{
-    background-color: rgb(124, 115, 80);
+.sliderItem:nth-child(5)  .sliderPrice{
+    color: rgb(124, 115, 80);
+}
+
+.sliderItem:nth-child(1) .sliderPrice{
+    color: #369e62;
+}
+
+.sliderItem:nth-child(2)  .sliderPrice{
+    color: rebeccapurple;
+}
+.sliderItem:nth-child(3)  .sliderPrice{
+    color: teal;
+}
+.sliderItem:nth-child(4)  .sliderPrice{
+    color: cornflowerblue;
+}
+
+.sliderItem:nth-child(5)  .sliderPrice{
+    color: rgb(124, 115, 80);
 }
