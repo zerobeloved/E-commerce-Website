@@ -201,7 +201,14 @@ nav{
     top: 10%;
     right: 0;
     width: 40%;
+
 }
+
+.productTitle{
+    font-size: 75px;
+    font-weight: 900;
+}
+
 .productDesc{
     font-size: 24px;
     color: gray;
