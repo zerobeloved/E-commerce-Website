@@ -252,3 +252,39 @@ nav{
     background-color: white;
     color: black;
 }
+
+@media screen and (max-width:480px){
+    nav {
+        padding: 20px;
+    }
+    .search{
+        display: none;
+    }
+    .menuItem{
+        margin: 20px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .navBottom{
+        flex-wrap: wrap;
+    }
+    .slider{
+        clip-path: none;
+    }
+    .sliderImg{
+        width: 80%;
+    }
+    .slideBg{
+        width: 90%;
+        height: 100%;
+    }
+    .sliderTitle{
+        display: none;
+    }
+    .sliderPrice{
+        top: unset;
+        bottom: 0;
+        left: 0;
+        background-color: lightgray;
+    }
+}
